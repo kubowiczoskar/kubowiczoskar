@@ -1,0 +1,29 @@
+.article-wrapper {
+  width: 100%;
+  max-width: 1300px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 2rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;      /* horizontal layout */
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
+  gap: 50px;                /* space between elements */
+  box-sizing: border-box;
+}
+
+.article-wrapper > h1 {
+  font-size: 3.25rem;
+  
+}
+
+
+@media (max-width: 756px) {
+  .article-wrapper {
+    flex-direction:column;
+  }
+  
+}
+
